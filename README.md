@@ -1,4 +1,4 @@
-# Lab 6: Spark ML Pipeline on Amazon EMR (Customer Churn Prediction)
+# Lab 6: Spark ML Pipeline on Amazon EMR
 
 ## Project Overview
 This project demonstrates an end-to-end distributed machine learning pipeline using Apache Spark on an Amazon EMR cluster to predict bank customer churn. The pipeline performs distributed feature engineering, model training, and evaluation at scale using PySpark ML.
@@ -88,5 +88,3 @@ On EMR, you can access the YARN Resource Manager UI and Spark History Server thr
 ## Conclusion
 This lab showcases how Spark ML on Amazon EMR can be used to build scalable, distributed machine learning pipelines. The EMR environment enables parallel feature engineering and model training, and the Random Forest classifier showed improved performance over Logistic Regression on this churn prediction task.
 
-## Contact
-If you have questions or need help running the lab, open an issue in this repository or contact the lab maintainer.
